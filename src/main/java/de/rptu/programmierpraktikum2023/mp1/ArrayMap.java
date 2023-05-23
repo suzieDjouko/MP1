@@ -60,6 +60,7 @@ public  class ArrayMap implements Map<String, Integer>{
                 zaehler += 1;
             }
         }
+        //test
         return zaehler;
     }
     @Override
