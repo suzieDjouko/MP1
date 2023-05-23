@@ -1,6 +1,6 @@
 package de.rptu.programmierpraktikum2023.mp1;
 
-public  class ArrayMap implements Map<String, Integer>{
+public class ArrayMap implements Map<String,Integer> {
     private static class Eintraege {
         String key;
         Integer value;
@@ -12,7 +12,7 @@ public  class ArrayMap implements Map<String, Integer>{
     private static Eintraege[]eintraege;
     // int size = 6 ;
     //public ArrayMap(){
-        //eintraege = new Eintraege[size];}
+    //eintraege = new Eintraege[size];}
 
     private Integer get_index(String key) {
         for (int i = 0; i < eintraege.length; i++) {
