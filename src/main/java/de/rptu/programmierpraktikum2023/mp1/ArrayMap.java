@@ -9,7 +9,7 @@ public  class ArrayMap implements Map<String, Integer>{
             this.value = value;
         }
     }
-     // eintraege ist das Array mit der aktuellen Funktion bzw. den Tupeln
+     // .....eintraege ist das Array mit der aktuellen Funktion bzw. den Tupeln
     private static Eintraege[]eintraege;
     // int size = 6 ;
     //public ArrayMap(){
